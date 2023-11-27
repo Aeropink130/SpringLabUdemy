@@ -1,0 +1,68 @@
+package com.aeropink.springlab.controller;
+
+public class ClientApartmentRequest {
+
+    private String description;
+    private String buildName;
+    private String streetAddress;
+    private String city;
+    private String postalCode;
+    private Boolean isAvailableForRent;
+    private int rentPrice;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getBuildName() {
+        return buildName;
+    }
+
+    public void setBuildName(String buildName) {
+        this.buildName = buildName;
+    }
+
+    public String getStreetAddress() {
+        return streetAddress;
+    }
+
+    public void setStreetAddress(String streetAddress) {
+        this.streetAddress = streetAddress;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+
+    public Boolean getAvailableForRent() {
+        return isAvailableForRent;
+    }
+
+    public void setAvailableForRent(Boolean availableForRent) {
+        isAvailableForRent = availableForRent;
+    }
+
+    public int getRentPrice() {
+        return rentPrice;
+    }
+
+    public void setRentPrice(int rentPrice) {
+        this.rentPrice = rentPrice;
+    }
+}
